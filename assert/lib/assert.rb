@@ -12,9 +12,8 @@ require 'assert/version'
 # There are 4 comparison states:
 ## equal - the 2 compared values are equal
 ## unequal - the 2 compared values are unequal
-## missing - the first element is missing for comparison
-## surplus - the second element has an extra value for comparison
-
+## missing - the first element is present for comparison, but second element is missing
+## surplus - the second element is present for comparison, but the first element is missing
 module Assert
   class Asserter
 
