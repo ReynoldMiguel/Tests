@@ -10,10 +10,10 @@ require 'assert/version'
 #
 # This method assert_identical accepts any complex data structure.
 # There are 4 comparison states:
-## equal
-#$ unequal
-## missing
-## surplus
+## equal - the 2 compared values are equal
+## unequal - the 2 compared values are unequal
+## missing - the first element is missing for comparison
+## surplus - the second element has an extra value for comparison
 
 module Assert
   class Asserter
@@ -113,7 +113,7 @@ module Assert
       [equal, details]
     end
 
-    #dettype_of , determine the type of object
+    # type_of , determine the type of object
     # Params:
     # +value+:: compared value
     def type_of(value)
@@ -123,7 +123,7 @@ module Assert
       end
     end
 
-    #value_data_for, set the object size, and type
+    # value_data_for, set the object size, and type
     # Params:
     # +value+:: compared value
     def value_data_for(value)
