@@ -32,7 +32,7 @@ data structures is infinite.
 ```
 require 'assert'
 
-Assert.identical?(object, my_other_object)
+assert_identical(object, my_other_object)
 ```
 
 ## Development
