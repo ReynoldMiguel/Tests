@@ -36,9 +36,10 @@
 	```
 	$ make run_all_in_parallel
 	```
-set number of processes to use with PARALLEL_SPLIT_TEST_PROCESSES environment variable
+* Set number of processes to use with PARALLEL_SPLIT_TEST_PROCESSES environment variable
+    ```
     $ export PARALLEL_SPLIT_TEST_PROCESSES=<Number of processes>
-
+    ```
 
 ### Advice/Troubleshooting
 
