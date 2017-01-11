@@ -56,7 +56,7 @@ Search for "World Market"
 When the results are displayed, do a count of the number of articles returned. 
 ####  Test Case 1: 
 "Search Results Page: Ensure that the article search results page displays a maximum of 10 results on the first page." 
-### Step 4: Click the "Show more results" button 10 times; each time, validate that another 10 results are displayed. 
+Click the "Show more results" button 10 times; each time, validate that another 10 results are displayed. 
 ####   Test Case 2-11: 
 "Search Results Page 2 (..11): Ensure that the Show more results button on the article search results page displays 10 additional results each time it's clicked."
  
